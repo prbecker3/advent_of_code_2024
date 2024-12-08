@@ -13,6 +13,7 @@ fn main() {
 }
 
 /// Parses the input string into two sorted vectors of integers.
+///
 /// The input string is expected to contain lines with exactly two space-separated integers.
 fn build_lists(input: &str) -> (Vec<i32>, Vec<i32>) {
     let (mut list1, mut list2): (Vec<i32>, Vec<i32>) = input

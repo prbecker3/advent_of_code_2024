@@ -21,6 +21,3 @@ Cargo.lock
 
 # Advent of Code does not want input files redistributed
 **/input
-
-# This is just some stuff for myself to look back at
-refactors/
