@@ -53,7 +53,6 @@ fn count_safe_reports(reports: &[Vec<i32>]) -> usize {
 /// Counts the number of reports that become safe after removing a single element.
 ///
 /// This function builds upon the concept of safe reports defined in `report_is_safe`. Here, it iterates through each report and checks if removing any single element from the report would result in a safe report.
-///
 fn count_safe_reports_with_dampener(reports: &[Vec<i32>]) -> usize {
     reports
         .iter()
