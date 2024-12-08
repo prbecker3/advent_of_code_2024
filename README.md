@@ -22,3 +22,7 @@ advent_of_code_2024/
 ```
 
 This approach provides a clear and modular way to manage the solutions for each day.
+
+## AI Assistance
+
+**All original code and solutions in this repository are my own work.** Gemini, a large language model, was used to generate most documentation and provide refactoring suggestions.
