@@ -1,5 +1,3 @@
-use regex::Regex;
-
 /// **Advent of Code 2024 Day 3**
 fn main() {
     let input = include_str!("input");
@@ -33,7 +31,7 @@ enum Operation {
 /// - **Do:** `do()`
 /// - **Don't:** `don't()`
 fn parse_memory(input: &str) -> Vec<Operation> {
-    let re = Regex::new(r"(?<op>mul\((?<a>\d+),(?<b>\d+)\)|do\(\)|don't\(\))").unwrap();
+    let re = regex::Regex::new(r"(?<op>mul\((?<a>\d+),(?<b>\d+)\)|do\(\)|don't\(\))").unwrap();
 
     re.captures_iter(input)
         .map(|cap| match &cap["op"] {
