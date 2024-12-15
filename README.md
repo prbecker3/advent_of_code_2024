@@ -1,7 +1,13 @@
 # Advent of Code 2024 (Rust)
+
 This repository contains solutions to the Advent of Code 2024 puzzles written in Rust.
 
+## Table of Contents
+
+* [Day 01: Historian Hysteria](crates/day01/src/main.rs)
+
 ## Folder Structure
+
 This repository uses a Cargo workspace to organize multiple projects, each dedicated to a specific day of Advent of Code. The workspace structure allows for efficient building and testing of individual solutions:
 
 ```bash
@@ -25,4 +31,4 @@ This approach provides a clear and modular way to manage the solutions for each 
 
 ## AI Assistance
 
-**All code and solutions in this repository are my own work.** Gemini, a large language model, was used to generate documentation and comments.
+**All code and solutions in this repository are my own work.** Gemini, a large language model, was used to generate initial drafts of documentation and to help refine code comments for clarity.
