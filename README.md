@@ -6,6 +6,7 @@ This repository contains solutions to the Advent of Code 2024 puzzles written in
 
 * [Day 01: Historian Hysteria](crates/day01/src/main.rs)
 * [Day 02: Red-Nosed Reports](crates/day02/src/main.rs)
+* [Day 03: Mull It Over](crates/day03/src/main.rs)
 
 ## Folder Structure
 
